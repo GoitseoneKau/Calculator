@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<title>Calculator</title>
+    <!-- CSS -->
+ 
+</head>
+<body>
+
+	<table border="1">
+		<tr><td class="equationText" colspan="4"><span  id="equation"></span></td></tr>
+		<tr >
+			<td  colspan="4"><input type="text" name="input" id="input"></td>
+		</tr>
+		<tr>
+			<td class="operatorButton" onclick="btnOperator(this)">X&sup2;</td>
+			<td class="operatorButton" onclick="btnOperator(this)">X&#8319;</td>
+			<td class="operatorButton" onclick="btnOperator(this)">&radic;</td>
+			<td class="operatorButton" onclick="btnOperator(this)">&#8731;</td>
+		</tr>
+		<tr>
+			<td class="digitButton" onclick="btnDigit(this)">7</td>
+			<td class="digitButton" onclick="btnDigit(this)">8</td>
+			<td class="digitButton" onclick="btnDigit(this)">9</td>
+			<td class="operatorButton" onclick="btnOperator(this)">&times;</td>
+		</tr>
+		<tr>
+			<td class="digitButton" onclick="btnDigit(this)">4</td>
+			<td class="digitButton" onclick="btnDigit(this)">5</td>
+			<td class="digitButton" onclick="btnDigit(this)">6</td>
+			<td class="operatorButton" onclick="btnOperator(this)">&minus;</td>
+		</tr>
+		<tr>
+			<td class="digitButton" onclick="btnDigit(this)">1</td>
+			<td class="digitButton" onclick="btnDigit(this)">2</td>
+			<td class="digitButton" onclick="btnDigit(this)">3</td>
+			<td class="operatorButton" onclick="btnOperator(this)">&plus;</td>
+		</tr>
+		<tr>
+			<td class="digitButton"  onclick="btnDigit(this)">0</td>
+			<td class="digitButton"  onclick="btnDigit(this)">.</td>
+			<td class="acButton" onclick="btnACpressed(this)">AC</td>
+			<td class="operatorButton" onclick="btnOperator(this)">&divide;</td>
+		</tr>
+		<tr><td class="equalButton" colspan="4" onclick="btnEqualTo(this)">=</td></tr>
+	</table>
+	
+</body>
+<!-- JS -->
+
+<script src="main.js"></script>
+</html>

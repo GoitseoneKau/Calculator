@@ -1,0 +1,82 @@
+span#equation{
+    display: inline-block;
+    height: 100%;
+    font-size: .7em;
+    font-weight: thin;
+    text-align: right;
+    width: 100%;
+    color: #b4b3b4;
+    box-sizing: border-box;
+}
+
+.equationText{
+    background-color: #1d1c1d;
+}
+
+#input{
+    background-color: #4e494d;
+    text-align: right;
+    width: 100%;
+    line-height: 12vh;
+    height: 12.5vh;
+    font-size: 2em;
+    color: #fff;
+    border: none;
+    box-sizing: border-box;
+}
+
+table{
+    color: #fff;
+    text-align: center;
+    border-collapse:collapse;
+    font: normal 3em Arial, Helvetica, sans-serif;
+    width: 100%;
+}
+
+table tr{
+    height: 12.5vh;
+    background-color: #4e494d;
+}
+
+table tr td{
+    text-align: center;
+    width: 25vw;
+    border: 1px solid #4e494d;
+}
+
+.digitButton{
+    background-color: #807e80;
+}
+
+.digitButton:active{
+    color: #807e80;
+    background-color: #ffffff;
+}
+
+.operatorButton{
+    background-color: #ff9e06;
+}
+
+.operatorButton:active{
+    color: #ff9e06;
+    background-color: #ffffff;
+}
+
+.acButton{
+    background-color: #222122;
+}
+
+.acButton:active{
+    color: #656165;
+    background-color: #ffffff;
+}
+
+.equalButton{
+    background-color: #4e494d;
+}
+
+.equalButton:active{
+     background-color: #ffffff;
+     color: #4e494d;
+}
+
